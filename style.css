@@ -6,11 +6,36 @@
 html,
 body {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
 }
 .nav-height {
   height: 70px;
 }
 li {
   list-style: none;
+}
+.blueviolet {
+  background-color: blueviolet;
+}
+.p-15 {
+  padding: 30px 95px;
+}
+.dp-ab {
+  height: 150px;
+  width: 150px;
+}
+.shadow-a {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.113);
+}
+
+.grid-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.card p {
+  text-align: center;
+  font-size: 0.9em;
 }

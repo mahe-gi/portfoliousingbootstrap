@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,24 +27,122 @@
             </ul>
         </nav>
     </header>
-    <main class="w-100 h-100">
-        <div id="wrapperHero" class="w-75 h-75">
-            <div class="imgwrapper ">
-                <img src="./assets/dp-mahe.webp" alt="" class=" h-25 w-25 object-fit-cover rounded rounded-circle">
-            </div>
-            <h1>Hi , I'm Mahesh Yadav</h1>
-            <p>A passionate Software Developer with 3 years of experience and expertise in Java and ReactJS. i love
-                crafting innovative solutions that make a differce .</p>
-            <div class="btns">
-                <div class="viewmywork">
-                    View My Work
+    <main class="w-100 h-100 bg-body-tertiary">
+        <div id="wrapperHero" class="w-100 h-100  d-flex align-items-center justify-content-center bg-body-tertiary">
+            <div class="heroCenter w-50 h-50 d-flex flex-column text-center align-items-center gap-2">
+                <div class=" imgwrapper w-25 rounded-circle">
+                    <img src=" ./assets/dp-mahe.webp" alt=""
+                        class=" h-100 w-100 rounded-circle border border-4 border-light-subtle shadow ">
                 </div>
-                <div class="getintouch">
-                    Get in Touch
+                <h1>Hi , I'm <span class="text-primary ">Mahesh Yadav</span></h1>
+                <p class="text-black-50">A passionate Software Developer with 3 years of experience and expertise in
+                    Java
+                    and ReactJS. i love
+                    crafting innovative solutions that make a differce .</p>
+                <div class="btns d-flex gap-3">
+                    <div class="viewmywork px-4 py-1 rounded-5 blueviolet text-white">
+                        View My Work <span><i class="bi bi-arrow-right"></i></span>
+                    </div>
+                    <div class="getintouch px-4 py-1 rounded-5 border border-black-50 text-black-50">
+                        Get in Touch <span><i class="bi bi-chat-dots"></i></span>
+                    </div>
                 </div>
             </div>
         </div>
-        </section>
+        <div id="about" class="w-100 h-100">
+            <div class="topabout h-25 w-100 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="fw-bold">About Me</h1>
+                <p class="text-black-50">A breif story of who i am and what drives me.</p>
+            </div>
+            <div class="btmabout h-75 w-100 d-flex px-5">
+                <div class="left w-50 h-100 d-flex flex-column p-15">
+                    <p>I am a dedicated Software Developer with 3 years of experience . My journey begin with a
+                        curiosity
+                        for programming , which quickly blossomed info a profound passion for creating robust and
+                        user-friendly applications. i thrive on challenges and constantly seek opportunities to learn
+                        and
+                        grow</p>
+                    <p>
+                        My approach is rooted in problem-solving and continues improvement , ensuring that every project
+                        I under take is not just functional but also efficient and scalable . When i'm not coding . you
+                        can find me exploring new technologies or enjoy a good book.
+                    </p>
+
+
+                    <div class=" mt-4">
+
+                        <button class=" px-3 py-1  border-1 bg-white rounded-5 border-primary text-primary">
+                            Download CV <i class="bi bi-download "></i>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="right w-50 h-75 d-flex align-items-center pb-5 ps-5">
+                    <div class="imageAbout dp-ab mb-5 ms-5 shadow shadow-a rounded rounded-3">
+                        <img src="./assets/dp-mahe.webp" alt="mahesh " class="h-100 w-100 rounded rounded-3 shadow-a">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="w-100 h-100 bg-body-tertiary">
+            <div class="topSkills h-25 w-100 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="fw-bold">My Skills </h1>
+                <p class="text-black-50">The tools and expertise i bring to the table</p>
+            </div>
+            <div class="btmSkills h-50 w-100 d-flex  justify-content-center ">
+                <div class="skills h-100 w-75 grid-boxes">
+                    <div class="card d-flex align-items-center justify-content-center shadow-a border-0 p-3">
+                        <div>
+                            <i class="bi bi-code-slash fs-2 text-primary"></i>
+                        </div>
+                        <h5 class="py-1">Frontend Development</h5>
+                        <p class="text-black-50">HTML5,CSS3,Bootstrap,Tailwind,ReactJS .</p>
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center shadow-a border-0 p-3">
+                        <div>
+                            <i class="bi bi-database fs-2 text-success"></i>
+                        </div>
+                        <h5 class="py-1">Backend Development</h5>
+                        <p class="text-black-50">Java EE , SpringBoot , Nodejs, MySQL .</p>
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center shadow-a border-0 p-3">
+                        <div>
+                            <i class="bi bi-boxes fs-2 text-info"></i>
+                        </div>
+                        <h5 class="py-1">DevOps & Cloud</h5>
+                        <p class="text-black-50">Git , Docker , AWS.</p>
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center shadow-a border-0 p-3">
+                        <div>
+                            <i class="bi bi-lightbulb  fs-2 text-warning"></i>
+                        </div>
+                        <h5 class="py-1">Problem solving</h5>
+                        <p class="text-black-50">Analytical thinking , debugging , efficient solution design.</p>
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center shadow-a border-0 p-3">
+                        <div>
+                            <i class="bi bi-people  fs-2 text-danger"></i>
+                        </div>
+                        <h5 class="py-1">Team Collaboration</h5>
+                        <p class="text-black-50">Agile Methodologies , communication ,conflict Resolution.</p>
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center shadow-a border-0 p-3">
+                        <div>
+                            <i class="bi bi-palette fs-2 text-black-50"></i>
+                        </div>
+                        <h5 class="py-1">Frontend Development</h5>
+                        <p class="text-black-50">Wireframming ,prototyping , user-centered design principles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myworks" class="w-100 h-100 ">
+            <div class="topSkills h-25 w-100 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="fw-bold">My Recent Work </h1>
+                <p class="text-black-50">A collection of Projects that showcase my capabilities .</p>
+            </div>
+        </div>
+
     </main>
 </body>
 
