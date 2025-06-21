@@ -46,7 +46,7 @@ li {
   width: 350px;
 }
 .w-80 {
-  width: 80%;
+  width: 84%;
 }
 .h-60 {
   height: 60%;
@@ -57,6 +57,7 @@ li {
 
 .image-rounded {
   border-radius: 10px 10px 0px 0px;
+  z-index: -10;
 }
 .content-end > button {
   font-size: 0.8em;
